@@ -1,4 +1,7 @@
 <script>
+  const formURL =
+    "https://docs.google.com/forms/d/e/1FAIpQLSeOZ8LkPIeBIkSYywnYVeGFGHPl50eaMtdgKEX4ixIMdxjxcg/viewform?usp=sf_link";
+
   function delay(e) {
     e.preventDefault();
     setTimeout(() => {
@@ -10,7 +13,7 @@
 <div class="container">
   <div class="button-container">
     <div class="shadow" />
-    <a href="https://www.google.com/" target="_blank" on:click={delay}>
+    <a href={formURL} target="_blank" on:click={delay}>
       <button>Sign Up</button>
     </a>
   </div>
