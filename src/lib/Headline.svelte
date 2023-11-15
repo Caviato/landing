@@ -1,8 +1,9 @@
 <div class="container">
-  <div class="top">Creating smart AI agent made easy</div>
+  <div class="top">Build your own AI Assistant in 5 minutes</div>
   <div class="bottom">
     <span class="name">Caviato</span>
-    provides you all the building block to build your own smart autonomous AI agent
+    provides you all the building block and an intuitive drag-and-drop interface
+    to build your own AI Assistant in less than 5 minutes.
   </div>
 </div>
 

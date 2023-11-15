@@ -6,25 +6,25 @@
   <Svelvet height={window.innerHeight * 0.4} theme="custom" controls>
     <Node
       bgColor="white"
-      label="Build"
+      label="Just"
       position={{ x: 50, y: 50 }}
-      connections={[2]}
+      connections={[]}
     />
     <Node
       bgColor="white"
-      label="Your"
+      label="Simply"
       position={{ x: 350, y: 50 }}
-      connections={[3]}
+      connections={[]}
     />
     <Node
       bgColor="white"
-      label="Own"
+      label="Connect"
       position={{ x: 350, y: 350 }}
-      connections={[4]}
+      connections={[]}
     />
     <Node
       bgColor="white"
-      label="Agent"
+      label="Blocks"
       position={{ x: 650, y: 350 }}
       connections={[]}
     />

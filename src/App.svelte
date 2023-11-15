@@ -9,20 +9,16 @@
 
   const title1 = "What is Caviato?";
   const content1 = `
-    Caviato is a platform that enable you to build your own autonomous agents
-    by providing you with the fundamental building blocks supercharged with
-    Generative AI capability, making it as straight forward and simple as playing with Lego.
-    <br/><br/>
-    You provide us with the blueprint,
-    and we will help you take care of the rest.
-    No technical knowledge required!
+    Caviato is a simple drag-and-drop AI Assistant build tools that lets ANYONE
+    build their own custom AI Assistant or Virtual Personalities.
   `;
 
   const title2 = "What can you build with Caviato?";
   const content2 = `
     With Caviato, the possibility is only limited by your imagination.
-    Whether to help you streamline your daily tasks or to make a virtual avatar for your company,
-    Caviato can help make your vision come true.
+    Whether to help you settle your daily tasks or
+    to help streamline your cusomter support process,
+    Caviato can empower you to do more with less.
   `;
 
   const title3 = "Why should you use Caviato?";
@@ -40,14 +36,64 @@
   <div class="body">
     <Headline />
     <SignUpButton />
+
     <Board />
-    <Subsection title={title1} content={content1} />
-    <Subsection title={title2} content={content2}>
+
+    <Subsection title={title1} content={content1}>
       <Option
         green
         description="
+            Build out your logic
+        "
+      >
+        <img
+          src="   https://cdn-icons-png.flaticon.com/512/4187/4187334.png "
+          width="100"
+          height="100"
+          alt=""
+          title=""
+          class="img-small"
+        />
+      </Option>
+      <Option
+        green
+        description="
+          Upload your business document and knowledge
+        "
+      >
+        <img
+          src="   https://cdn-icons-png.flaticon.com/512/4041/4041438.png "
+          width="100"
+          height="100"
+          alt=""
+          title=""
+          class="img-small"
+        />
+      </Option>
+      <Option
+        green
+        description="
+          Deploy to anywhere in 5 minutes
+        "
+      >
+        <img
+          src="   https://cdn-icons-png.flaticon.com/512/1584/1584892.png "
+          width="100"
+          height="100"
+          alt=""
+          title=""
+          class="img-small"
+        />
+      </Option>
+    </Subsection>
+
+    <br />
+
+    <Subsection title={title2} content={content2}>
+      <Option
+        description="
             Build your own assistant to help you with managing your daily 
-            task such as drafting email and schedule meeting.
+            task such as drafting email and schedule meeting
         "
       >
         <img
@@ -60,10 +106,8 @@
         />
       </Option>
       <Option
-        green
         description="
-          Build a customized virtual avatar for your business
-          or a personality for your own fleet of hospitality robot.
+          Build a customized virtual personality for your hospitality robot
         "
       >
         <img
@@ -76,15 +120,12 @@
         />
       </Option>
       <Option
-        green
         description="
-          Build your own librarian for your business
-          to help answer all of your business inquiry and
-          even generate insight on the data you already have.
+          Build a smart chatbot that helps sell products to your customer
         "
       >
         <img
-          src="https://cdn-icons-png.flaticon.com/512/5597/5597148.png "
+          src="   https://cdn-icons-png.flaticon.com/512/10472/10472979.png "
           width="100"
           height="100"
           alt=""
@@ -95,11 +136,12 @@
     </Subsection>
     <br />
 
-    {#if window.innerWidth <= 600}
+    <!-- {#if window.innerWidth <= 600}
       <SignUpButton />
     {/if}
-    <br />
-    <Subsection title={title3} content={content3}>
+    <br /> -->
+
+    <!-- <Subsection title={title3} content={content3}>
       <Option
         description="
           Easy to use drag-and-drop, no-code interface.
@@ -143,7 +185,8 @@
         />
       </Option>
     </Subsection>
-    <br />
+    <br /> -->
+
     <SignUpButton />
   </div>
   <Footer />
